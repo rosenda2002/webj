@@ -1,0 +1,559 @@
+/*homepage*/
+
+.background1{
+  width: 100%;
+  height: 600px;
+  background-image:url("Blockchain.gif");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.bck{
+  text-align: center;
+  color: aqua;
+  margin-top: 200px;
+  font-size: 80px;
+  
+}
+.bubbles img{
+ animation: bubbles 7s linear infinite;
+ 
+}
+
+.bubbles{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position:absolute;
+  bottom: 0;
+
+}
+@keyframes bubbles{
+  0%{
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50%{
+      
+      opacity: 1;
+  }
+  70%{
+      
+      opacity: 1;
+  }
+  100%{
+      transform: translateY(-80vh);
+      opacity: 0;
+  }
+
+}
+
+.bubbles img:nth-child(1){
+  animation-delay: 2.5s;
+  animation-direction:reverse;
+  width:80px;
+  height: 60px;
+  border-radius: 140px;
+}
+.bubbles img:nth-child(2){
+  animation-delay: 2s;
+  width:40px;
+  height: 50px;
+  border-radius: 80px;
+}
+
+.bubbles img:nth-child(3){
+  animation-delay: 3s;
+  width:45px;
+  height: 45px;
+  border-radius: 90px;
+  animation-direction: reverse;
+}
+.bubbles img:nth-child(4){
+  animation-delay: 3.2s;
+  width:50px;
+  height: 40px;
+  border-radius: 80px;
+  background-color: transparent;
+}
+.bubbles img:nth-child(5){
+  animation-delay: 2s;
+  width:50px;
+  height: 50px;
+  border-radius: 100px;
+  animation-direction: alternate-reverse;
+  
+}
+.bubbles img:nth-child(6){
+  animation-delay: 4s;
+  width:80px;
+  height: 70px;
+  border-radius: 100px;
+}
+   
+/*ai*/
+
+/*emerge*/
+* {
+  box-sizing: border-box;
+}
+
+.background{
+  background-image: url(https://via.placeholder.com/1920x1080.png);
+  height: auto;
+}
+.navbar{
+  text-align: center;
+  padding: 10px;
+  background-color:#f0ec0c;
+}
+.navbar a{
+  padding: 10px;
+}
+.navbar a:hover{
+  color: rgb(0, 255, 64);
+}
+.quotes{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive
+}
+.quotes:hover{
+  color: yellow;
+}
+.col1 {
+  border: 2px solid black;
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px; 
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  
+}
+.col2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 500px; 
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  border-radius: 10%;
+
+}
+
+.col2 img{
+  width: 70%;
+  height: 30%;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px double blue;
+  border-bottom: 4px double blue;
+  border-left: 4px double rgb(255, 17, 0);
+  border-right: 4px double rgb(255, 17, 0);
+}
+.row{
+  margin-top: 30px;
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col{
+    width: 100%;
+  }
+  .col1{
+    width: 100%;
+  }
+}
+.form{
+margin-top: 70px;
+}
+.form input{
+margin-left: 24px;
+}
+.form textarea{
+margin-left: 9px;
+}
+.foot{
+  text-align: center;
+  background-color: rgb(150, 209, 95);
+  color: black;
+  font-family: 'Prata';
+  margin-top: 109px;
+  padding: 2px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*ai_home*/
+.navigation{
+  background-color: aqua;
+  width: 100%;
+  height: 62px;
+  padding: 10px;
+}
+.topleft{
+  float: left;
+}
+.topleft img{
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  
+}
+.a_home:active{
+color: aliceblue;
+}
+.topleft p{
+  float: right;
+}
+.topright{
+  float: right;
+  padding: 10px;
+}
+.topright a{
+  padding: 10px;
+}
+.mySidenav a {
+  position: absolute;
+  left: -50px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-top: 150px;
+}
+.body .side{
+  width: 100px;
+  background-color: #f0ec0c;
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 30px;
+}
+.mySidenav a:hover {
+  left: 0;
+}
+/*ai*/
+.defi {
+  top: 30px;
+  background-color: #04AA6D;
+  height: 90px;
+}
+.ad_disa {
+  top: 130px;
+  background-color: #2196F3;
+  height: 90px;
+}
+
+.type{
+  top: 230px;
+  background-color: #f44336;
+  height: 90px;
+}
+
+.appl {
+  top:330px;
+  background-color: #555;
+  height: 90px;
+}
+/*iot*/
+.def {
+  top: 5px;
+  background-color: #04AA6D;
+  height: 90px;
+}
+.hist{
+  top: 110px;
+  background-color: orangered;
+  height: 90px;
+}
+
+.ad_dis {
+  top: 215px;
+  background-color: #2196F3;
+  height: 120px;
+}
+
+.types{
+  top: 350px;
+  background-color: #f44336;
+  height: 90px;
+}
+
+.app {
+  top: 455px;
+  background-color: #555;
+  height: 90px;
+}
+.ai {
+  margin-left: 130px;
+  padding: 20px;
+}
+.ai p{
+  text-align: justify;
+}
+.ai img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 5px dashed red;
+}
+.hori{
+  border: 5px solid blue;
+}
+.row1{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+ 
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px; 
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  border-radius: 10%;
+
+}
+.hist{
+  text-align: center;
+  margin-top: 190px;
+  float: left;
+}
+/*advantaages of ai*/
+.adtit{
+  text-align: justify;
+  padding: 20px;
+  margin-left: 110px;
+}
+.adtit  tr td{
+  border: 2px solid blueviolet;
+}
+.tab tr:hover{
+  color: red;
+}
+/*applications of ai*/
+.colum {
+  float: left;
+  width: 33%;
+  height: 500px; 
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+
+}
+/*history of iot*/
+.ru img{
+  float: right;
+  width: 700px;
+  padding: 20px;
+  border: 3px dashed #04AA6D;
+  margin-left: 20px;
+}
+.iot_hist{
+  text-align: justify;
+  padding: 20px;
+  margin-left: 110px;
+  
+}
+/*disad of iot*/
+.container1{
+  margin-left: 130px;
+}
+.table1 td{
+  padding: 15px;
+}
+.table1 p{
+  text-align: justify;
+  color: black;
+}
+.table1 :hover{
+color: rgb(231, 23, 196);
+}
+/*architecture of iot*/
+  .motion p{
+      float: left;
+      text-align: justify;
+      color: black;
+        }
+      .motion img{
+          float: right;
+          width: 250px;
+          padding: 10px;
+          margin-right: 20px;
+      }
+      .environment p{
+          float: left;
+          text-align: justify;
+          color: black;
+            }
+          .environment img{
+              float: right;
+              width: 400px;
+              padding: 20px;
+              margin-right: 20px;
+          }
+          .position p{
+              float: left;
+              text-align: justify;
+              color: black;
+                }
+              .position img{
+                  float: right;
+                  width: 300px;
+                  padding: 20px;
+                  margin-right: 20px;
+              }
+              .arch p{
+                  float: left;
+                  text-align: justify;
+                  color: black;
+                    }
+       .arch img{
+        float: right;
+        width: 400px;
+        padding: 20px;
+        margin-right: 20px;
+ }
+ /*ar*/
+        .ar_def {
+      top: 15px;
+      background-color: #04AA6D;
+    height: 90px;
+      }
+      .ar_diff{
+      top: 120px;
+       background-color: orangered;
+      height: 120px;
+       }
+                  
+        .ar_app {
+       top: 255px;
+      background-color: #2196F3;
+   height: 90px;
+  } 
+  .ru iframe{
+    float: right;
+    padding: 10px;
+    border: 3px dashed #04AA6D;
+    margin-left: 20px; 
+  }
+  .ar_defi{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 110px;
+  }  
+  .vr_def{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 110px;
+    margin-top: 80px;
+  }
+  .mr_def{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 110px;
+    margin-top: 60px;
+  }    
+  .arap{
+    margin-left: 130px;
+    margin-right: 20px;
+  }
+  /*other*/
+  .nano {
+    top: 5px;
+    background-color: #04AA6D;
+    height: 90px;
+  }
+  .bio{
+    top: 110px;
+    background-color: orangered;
+    height: 90px;
+  }
+  
+  .block {
+    top: 213px;
+    background-color: #2196F3;
+    height: 90px;
+  }
+  
+  .cloud{
+    top: 318px;
+    background-color: #f44336;
+    height: 100px;
+  }
+  
+  .auto {
+    top: 432px;
+    background-color: #555;
+    height: 90px;
+  }
+  .comp{
+    top: 535px;
+    background-color: rgb(233, 50, 193);
+    height: 90px;
+  }
+  .embed {
+    top: 637px;
+    background-color: #04AA6D;
+    height: 90px;
+  }
+  .cyber{
+    top: 740px;
+    background-color: darkkhaki;
+    height: 90px;
+  }
+  
+  .add {
+    top: 842px;
+    background-color: brown;
+    height: 90px;
+  }
+  /*nano*/
+  .nanon{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 110px;
+  }
+  .card-body iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
